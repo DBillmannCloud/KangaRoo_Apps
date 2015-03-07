@@ -1,0 +1,34 @@
+<!-- Doctype HTML-->
+<html>
+<head>
+<script>
+function sportsball() {
+	var sports = 0;
+	var ball =1;
+	var sportsball = sports + ball;
+	document.getElementById("sportsball").innerHTML = sportsball;
+	
+}
+</script>
+</head>
+<body>
+<h1><bold>HI THERE!!!</bold></h1>
+<p>
+This is our first application together! I have no idea what it's supposed to be, what it's supposed to do, but I think it'd be fun to build it with you.
+</p>
+<p>
+	Personally, I hope to accomplish somethihng by the end of the summer with you. I understand that you'll be busy with school and sand volleyball, but I thought 
+</p>
+<p>
+	If you had any extra free time for just sitting around, you might want to do this. 
+</p>
+<p>
+	Want to find out what the ranking of sportsball is?
+</p>	
+<button onclick="sportsball()">Try it!</button>
+
+<p id="sportsball">
+</p>
+
+</body>
+</html>
